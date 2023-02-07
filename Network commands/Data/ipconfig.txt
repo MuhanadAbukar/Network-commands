@@ -1,0 +1,7 @@
+1. "ipconfig" - This command is used to view and manage the IP configuration of a Windows machine. It can be used to display the current IP address, DHCP server, DNS server, and other IP-related information.
+
+	· IP address: A unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.
+
+	· DHCP server: A server that assigns IP addresses and other network configuration information to client devices.
+
+	· DNS server: A server that translates domain names into IP addresses. Example: "ipconfig /all" will display all IP-related information.

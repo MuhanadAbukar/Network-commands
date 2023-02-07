@@ -1,0 +1,5 @@
+7. "netstat" - This command is used to view various network statistics and information such as active connections, listening ports, and routing information.
+
+	· Connection: A communication channel between two devices.
+
+	· Listening port: A port on a device that is waiting for incoming connections. Example: "netstat -a" will display all active connections and listening ports on the machine.

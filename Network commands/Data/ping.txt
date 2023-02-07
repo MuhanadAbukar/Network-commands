@@ -1,0 +1,3 @@
+2. "ping" - This command is used to test the connectivity to a networked device. It sends a series of ICMP echo request packets to a specified IP address and listens for a response.
+
+	· ICMP (Internet Control Message Protocol): A network protocol used to send error messages and operational information about network conditions. Example: "ping www.google.com" will send a series of ICMP echo request packets to the IP address associated with www.google.com and display the response time.

@@ -1,0 +1,1 @@
+8. "netsh" - This command is used to configure and display the network configuration of a local or remote host. It can be used to run a variety of network-related tasks from the command line, such as configuring IP addresses, creating or removing network connections, and configuring DHCP. Example: "netsh interface ip show config" to display the current IP configuration

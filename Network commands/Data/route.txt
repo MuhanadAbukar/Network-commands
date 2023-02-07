@@ -1,0 +1,3 @@
+5. "route" - This command is used to view and manage the routing table on a Windows machine. The routing table contains information about how data should be routed through the network.
+
+	· Routing: The process of forwarding data packets through a network. Example: "route print" will display the current routing table on the machine.

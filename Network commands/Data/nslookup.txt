@@ -1,0 +1,3 @@
+4. "nslookup" - This command is used to query DNS servers to obtain information such as IP address, hostname, and other DNS-related information.
+
+	· DNS (Domain Name System): A system that translates domain names into IP addresses. Example: "nslookup www.google.com" will query the DNS server for information about the IP address associated with www.google.com.

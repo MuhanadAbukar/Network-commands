@@ -1,0 +1,1 @@
+9. "net use" - This command is used to map a network drive. It can be used to connect to a network share and assign it a drive letter. Example: "net use Z: \server\share" to map the network share \server\share to the drive letter Z.

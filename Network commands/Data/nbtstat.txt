@@ -1,0 +1,3 @@
+6. "nbtstat" - This command is used to view and troubleshoot the NetBIOS over TCP/IP (NetBT) protocol and the NetBIOS name cache.
+
+	· NetBIOS (Network Basic Input/Output System): A protocol used for file and printer sharing in older versions of Windows. Example: "nbtstat -c" will display the current NetBIOS name cache.

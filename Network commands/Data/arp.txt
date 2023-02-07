@@ -1,0 +1,3 @@
+3. "arp" - This command is used to view and manage the ARP cache on a Windows machine. The ARP cache contains information about the mapping of IP addresses to MAC addresses on the local network.
+
+	· ARP (Address Resolution Protocol): A protocol used to map an IP address to a physical (MAC) address on a local network. Example: "arp -a" will display the current ARP cache on the machine.
