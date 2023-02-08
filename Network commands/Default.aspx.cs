@@ -35,7 +35,7 @@ namespace Network_commands
                         var fileNumberIndex = fileNumbers.IndexOf(fileNumber);
                         if (fileNumberIndex != 0 || FindControl(controlId) != null) continue;
                         var temp = fileText.Split(new[] { "-" }, StringSplitOptions.None);
-                        var t = temp[1].Split(new string[] { "Example: " }, StringSplitOptions.None);
+                        var t = temp[1].Split(new[] { "Example: " }, StringSplitOptions.None);
                         var title = rgx.Replace(temp[0], "");
                         var img = jpgFileNames[fileContents.IndexOf(fileText)];
                         var image = new Image();
