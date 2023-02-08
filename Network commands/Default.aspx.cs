@@ -35,7 +35,7 @@ namespace Network_commands
                         var fileNumberIndex = fileNumbers.IndexOf(fileNumber);
                         if (fileNumberIndex != 0 || FindControl(controlId) != null) continue;
                         var temp = fileText.Split(new[] { "-" }, StringSplitOptions.None);
-                        var t = temp[1].Split(new[] { "Example: " }, StringSplitOptions.None);
+                        var exampletext = temp[1].Split(new[] { "Example: " }, StringSplitOptions.None);
                         var title = rgx.Replace(temp[0], "");
                         var img = jpgFileNames[fileContents.IndexOf(fileText)];
                         var image = new Image();
@@ -49,7 +49,7 @@ namespace Network_commands
                         div1.Controls.Add(new HtmlGenericControl("br"));
                         div1.Controls.Add(new Label { Text = temp[1] + "\n", ID = controlId });
                         div1.Controls.Add(new HtmlGenericControl("br"));
-                        div1.Controls.Add(new Label { Text = "Example: " + t[0] + "\n", ID = controlId + "d" });
+                        div1.Controls.Add(new Label { Text = "Example: " + exampletext[0] + "\n", ID = controlId + "d" });
                         div1.Controls.Add(new HtmlGenericControl("br"));
                         div1.Controls.Add(new HtmlGenericControl("br"));
                         fileNumbers.RemoveAt(fileNumberIndex);
