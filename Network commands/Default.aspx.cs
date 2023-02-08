@@ -17,10 +17,10 @@ namespace Network_commands
         {
             if (!IsPostBack)
             {
-                fileContents = Directory.GetFiles("C:\\Users\\muhan\\source\\repos\\Network commands\\Network commands\\Data", "*.txt")
+                fileContents = Directory.GetFiles(@"C:\Users\muhan\source\repos\Network commands\Network commands\Data", "*.txt")
                                    .Select(File.ReadAllText)
                                    .ToList(); List<int> fileNumbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-                jpgFileNames = Directory.GetFiles("C:\\Users\\muhan\\source\\repos\\Network commands\\Network commands\\Data", "*.jpg")
+                jpgFileNames = Directory.GetFiles(@"C:\Users\muhan\source\repos\Network commands\Network commands\Data", "*.jpg")
                                       .Select(Path.GetFileName)
                                       .ToList();
                 var rgx = new Regex("[^a-zA-Z]");
